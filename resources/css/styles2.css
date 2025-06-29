@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    background-color: #471a18;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido */
+main {
+    padding: 20px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #a82f1e;
+    color: white;
+}
+
+/* Aplica el estilo a las filas impares */
+table tr:nth-child(odd) {
+    background-color: #ececb7; 
+}
+
+/* Botón votar */
+.btn-votar {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-votar:hover {
+    background-color: #218838;
+}
+
+/* Errores */
+.error {
+    background-color: #ffdddd;
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #471a18;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.privada{
+    color: cornflowerblue;
+
+}
